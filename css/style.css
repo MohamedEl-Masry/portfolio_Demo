@@ -1,0 +1,586 @@
+:root {
+  --main-fsp: 1;
+}
+nav {
+  z-index: 999999999999999999999999;
+
+}
+.dropdown-item{
+  color: #1e1e1e;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+.dl {font-size: .75rem;}
+.home-b::after {
+  content: "";
+  width: 60%;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: 10px;
+  background-color: white;
+}
+.navbar .bb::before {
+  content: "";
+  height: 2px;
+  position: absolute;
+  width: 0%;
+  background-color: white;
+  left: 0;
+  bottom: 0;
+  margin-left: 10px;
+}
+.navbar .bb:hover::before {
+  content: "";
+  width: 70%;
+  position: absolute;
+  transition: 0.5s;
+}
+.bg {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../imgs/hero-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.layer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.layer .content {
+  text-align: center;
+  animation-name: dev;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.home .content h1 {
+  font-size: 4.5rem;
+  font-weight: 600;
+}
+.home .content p::after {
+  font-size: 2.5rem;
+  font-weight: 600;
+  animation-name: dev;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  transition-timing-function: ease;
+  color: white;
+  content: "";
+}
+@keyframes dev {
+  0% {
+    content: "|";
+  }
+  1% {
+    content: "|";
+  }
+  2% {
+    content: " |";
+  }
+  3% {
+    content: " |";
+  }
+  4% {
+    content: "D |";
+  }
+  5% {
+    content: "De |";
+  }
+  6% {
+    content: "Dev |";
+  }
+  7% {
+    content: "Deve |";
+  }
+  8% {
+    content: "Devel |";
+  }
+  9% {
+    content: "Develo |";
+  }
+  10% {
+    content: "Develop |";
+  }
+  11% {
+    content: "Develope |";
+  }
+  12% {
+    content: "Developer |";
+  }
+  14% {
+    content: "Developer |";
+  }
+  15% {
+    content: "Developer |";
+  }
+  16% {
+    content: "Developer |";
+  }
+  17% {
+    content: "Develope |";
+  }
+  18% {
+    content: "Develop |";
+  }
+  19% {
+    content: "Develo |";
+  }
+  20% {
+    content: "Devel |";
+  }
+  21% {
+    content: "Deve |";
+  }
+  22% {
+    content: "Dev |";
+  }
+  23% {
+    content: "De |";
+  }
+  24% {
+    content: "D |";
+  }
+  25% {
+    content: " |";
+  }
+  26% {
+    content: "|";
+  }
+  27% {
+    content: " |";
+  }
+  28% {
+    content: "D |";
+  }
+  29% {
+    content: "De |";
+  }
+  30% {
+    content: "Des |";
+  }
+  31% {
+    content: "Desi |";
+  }
+  32% {
+    content: "Desig |";
+  }
+  33% {
+    content: "Design |";
+  }
+  34% {
+    content: "Designe |";
+  }
+  35% {
+    content: "Designer |";
+  }
+  36% {
+    content: "Designer |";
+  }
+  38% {
+    content: "Designer |";
+  }
+  39% {
+    content: "Designer |";
+  }
+  40% {
+    content: "Designe |";
+  }
+  41% {
+    content: "Design |";
+  }
+  42% {
+    content: "Desig |";
+  }
+  43% {
+    content: "Desi |";
+  }
+  44% {
+    content: "Des |";
+  }
+  45% {
+    content: "De |";
+  }
+  46% {
+    content: "D |";
+  }
+  47% {
+    content: " |";
+  }
+  48% {
+    content: " |";
+  }
+  49% {
+    content: "F |";
+  }
+  50% {
+    content: "Fr |";
+  }
+  51% {
+    content: "Fre |";
+  }
+  52% {
+    content: "Free |";
+  }
+  53% {
+    content: "Freel |";
+  }
+  54% {
+    content: "Freela |";
+  }
+  55% {
+    content: "Freelan |";
+  }
+  56% {
+    content: "Freelanc |";
+  }
+  57% {
+    content: "Freelance |";
+  }
+  58% {
+    content: "Freelancer |";
+  }
+  59% {
+    content: "Freelancer |";
+  }
+  61% {
+    content: "Freelancer |";
+  }
+  62% {
+    content: "Freelancer |";
+  }
+  63% {
+    content: "Freelance |";
+  }
+  64% {
+    content: "Freelanc |";
+  }
+  65% {
+    content: "Freelan |";
+  }
+  66% {
+    content: "Freela |";
+  }
+  67% {
+    content: "Freel |";
+  }
+  68% {
+    content: "Free |";
+  }
+  69% {
+    content: "Fre |";
+  }
+  70% {
+    content: "Fr |";
+  }
+  71% {
+    content: "F |";
+  }
+  72% {
+    content: " |";
+  }
+  73% {
+    content: " |";
+  }
+  74% {
+    content: "P |";
+  }
+  75% {
+    content: "Ph |";
+  }
+  76% {
+    content: "Pho |";
+  }
+  77% {
+    content: "Photo |";
+  }
+  78% {
+    content: "Photog |";
+  }
+  79% {
+    content: "Photogr |";
+  }
+  80% {
+    content: "Photogra |";
+  }
+  81% {
+    content: "Photograp |";
+  }
+  82% {
+    content: "Photograph |";
+  }
+  83% {
+    content: "Photographe |";
+  }
+  84% {
+    content: "Photographer |";
+  }
+  85% {
+    content: "Photographer |";
+  }
+  86% {
+    content: "Photographer |";
+  }
+  87% {
+    content: "Photographer |";
+  }
+  88% {
+    content: "Photographe |";
+  }
+  89% {
+    content: "Photograph |";
+  }
+  90% {
+    content: "Photograp |";
+  }
+  91% {
+    content: "Photogra |";
+  }
+  92% {
+    content: "Photogr |";
+  }
+  93% {
+    content: "Photog |";
+  }
+  94% {
+    content: "Photo |";
+  }
+  95% {
+    content: "Phot |";
+  }
+  96% {
+    content: "Pho |";
+  }
+  97% {
+    content: "Ph |";
+  }
+  98% {
+    content: "P |";
+  }
+  99% {
+    content: " |";
+  }
+  100% {
+    content: "|";
+  }
+}
+.s {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.about-me h4::before {
+  content: "";
+  height: 3px;
+  width: 25%;
+  background-color: #0078ff;
+  position: absolute;
+  bottom: 0;
+}
+.progress {
+  background-color: #cde1f8;
+  height: 0.7rem;
+}
+#about {
+  padding: 4rem 8rem;
+  background-color: #f5f5f5;
+}
+.bor {
+  height: 5px;
+  width: 40px;
+  background-color: #0078ff;
+  margin: 0 auto;
+}
+.icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: .6s;
+  box-shadow: 0 0 0 10px #0078ff;
+}
+.services-perant:hover .icon {
+  background-color: #0078ff;
+  box-shadow: 0 0 0 10px #cde1f8;
+}
+.services-perant i {
+  font-size: 40px;
+}
+.services-icon {
+  padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+#SERVICES {
+  padding: 2rem 8rem;
+  background-color: #f5f5f5;
+}
+.services-perant {
+  border-radius: 0.75rem;
+}
+.numpers {
+  background-attachment: fixed;
+  position: relative;
+  background-image: url(../imgs/post-3.jpg);
+  background-size: cover;
+  color: #fff;
+}
+.icon2 {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  box-shadow: 0 0 0 10px #cde1f8;
+  font-size: 25px;
+  color: #fff;
+}
+.layer-numper {
+  background-color: rgba(10, 107, 235, 0.7);
+  padding: 8rem 0;
+}
+#work {
+  padding: 4rem 8rem 0;
+  background-color:#f5f5f5 ;
+}
+.works h3 {
+  font-size: 1.2rem;
+}
+.works p {
+  font-size: 0.8rem;
+}
+.plus {
+  bottom: 2rem;
+  right: 1rem;
+  padding: 0.3rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #0d6efd;
+}
+.works:hover .work-img {
+  transform: scale(1.3);
+}
+.work-img {
+  transition: 1s;
+}
+.content-work span {
+  color: #0078ff;
+}
+.layer-portfolio {
+  padding: 8rem 0;
+  background-color: rgba(0, 123, 255, 0.6);
+}
+.arousel-indicators [data-bs-target] {
+  width: 20px;
+  height: 20px;
+}
+.portfolio {
+  background-image: url(../imgs/overlay-bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.portfolio2{
+  color: #fff;
+}
+#blog {
+  padding: 1rem 0 3rem;
+  background-color: #f5f5f5;
+}
+#blog a {
+  text-decoration: none;
+  color: #1e1e1e;
+  transition: 0.8s;
+}
+#blog a:hover {
+  color: #0078ff;
+}
+.btn-blog {
+  display: inline-block;
+  color: #fff;
+  padding: 0 15px 5px;
+  background-color: #0078ff;
+  border-radius: 4px;
+}
+.pict-end-blog {
+  width: 32px;
+  height: 32px;
+}
+.end-blog{
+  background-color:#f5f5f5 ;
+}
+.bg-blog {
+  background-color: #fff;
+  box-shadow: 0 1px 1px 1px rgba(174, 175, 175, 0.5);
+}
+.blog-head {
+  padding: 2rem 0;
+}
+.btn-contact {
+  background-color: #0078ff;
+  color: #fff;
+  border-width: 0px;
+}
+.btn-c:hover .btn-contact {
+  border-color: #cde1f8;
+  border-width: 3px;
+}
+.li-git {
+  list-style: none;
+}
+.li-git i {
+  color: #0078ff;
+}
+.s-git {
+  width: 30px;
+  height: 30px;
+  box-shadow: 0 0 0 2px #0078ff;
+  transition: 0.7s;
+}
+.s-git i {
+  transition: 0.7s;
+}
+.s-g:hover .s-git {
+  box-shadow: 0 0 0 2px #cde1f8;
+  background-color: #0078ff;
+}
+.s-g:hover i {
+  color: #fff;
+}
+
+.social-get a {
+  text-decoration: none;
+}
+.s-git i {
+  color: #1e1e1e;
+}
+.contact-bor {
+  width: 100px;
+  height: 3px;
+  background-color: #0078ff;
+}
+#contact {
+  background-image: url(../imgs/overlay-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.layer-contact {
+  padding: 4rem 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 123, 255, 0.6);
+}
+#footer {
+  background-color: #095ec0;
+  padding: 1rem 0 0;
+  font-size: 0.8rem;
+  box-shadow: 0 2px 2px 2px rgba(40, 43, 46, 0.5);
+}
+.fc-a {
+  padding: 0 0 -10px 0;
+}
